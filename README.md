@@ -1,12 +1,21 @@
-# Microsoft Entra ID: Identity Management & Security Lab
+Microsoft Entra ID: Identity Management & Security Lab
 
-## Project Overview
-This project documents the configuration of a Microsoft Entra ID (Azure AD) environment. The goal was to simulate a real-world enterprise scenario by managing the user lifecycle, implementing security hardening through MFA/SSPR, and applying Role-Based Access Control (RBAC).
+This project demonstrates how to design and manage cloud-based identity and access controls using Microsoft Entra ID. The lab simulates a real-world enterprise workflow, covering user provisioning, MFA/SSPR enrollment, RBAC, group-based access, and identity verification through sign‑in logs.
 
-## Phase 1: User Provisioning & Identity Management
-**Objective:** Create and verify a cloud-only identity for a technical support role.
-* Provisioned the `Test Support Account`.
-* Audited identity attributes and Object ID to ensure proper administrative tracking.
+## Lab Overview
+This lab focuses on:
+Cloud-only user lifecycle management
+MFA and Self-Service Password Reset (SSPR) configuration
+Role-Based Access Control (RBAC)
+Group creation and membership validation
+Reviewing sign‑in logs and identity attributes
+Each step is documented with screenshots to show the full IAM workflow.
+
+## Identity Management Walkthrough
+Below is the complete step-by-step documentation of your work, with each screenshot explained clearly.
+
+1. User Creation: 
+Created a cloud-only user for the Technical Support role. Verified UPN, Object ID, and directory attributes to ensure proper identity provisioning.
 
 ![User Creation](01-User-Creation.png)
 ![User Overview](03-User-Technical-Details.png)
