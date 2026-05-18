@@ -3,13 +3,12 @@
 This project demonstrates how to design and manage cloud-based identity and access controls using Microsoft Entra ID...
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Lab Overview](#lab-overview)
-3. [Identity Management Walkthrough](#identity-management-walkthrough)
-4. [Security Hardening](#phase-2-security-hardening-mfa--sspr)
-5. [RBAC & Group Management](#phase-3-rbac--scalable-group-infrastructure)
-6. [Verification & Auditing](#phase-4-verification--sign-in-auditing)
-7. [Technical Skills Used](#technical-skills-used)
+1. [Lab Overview](#lab-overview)
+2. [Identity Management Walkthrough](#identity-management-walkthrough)
+3. [Security Hardening](#phase-2-security-hardening-mfa--sspr)
+4. [RBAC & Group Management](#phase-3-rbac--scalable-group-infrastructure)
+5. [Verification & Auditing](#phase-4-verification--sign-in-auditing)
+6. [Technical Skills Used](#technical-skills-used)
 
 ## Lab Overview
 This lab focuses on:
@@ -58,3 +57,13 @@ Created a cloud-only user for the Technical Support role. Verified UPN, Object I
 * **Identity Security:** Configuration of MFA, SSPR, and authentication methods.
 * **Access Control:** Role-Based Access Control (RBAC) and Security Group architecture.
 * **Governance & Auditing:** Interpreting Sign-in and Audit logs for compliance.
+
+## Skills Matrix
+
+| Skill Area            | Technologies Used         | Demonstrated Through                                  |
+|-----------------------|---------------------------|-------------------------------------------------------|
+| Identity Management   | Entra ID / Azure AD       | User provisioning, attribute verification             |
+| Authentication        | MFA, SSPR                 | MFA setup, recovery methods                           |
+| Access Control        | RBAC, Security Groups     | Role assignment, group membership                     |
+| Governance & Auditing | Sign-in Logs, Audit Logs  | Verifying successful auth and policy enforcement      |
+
