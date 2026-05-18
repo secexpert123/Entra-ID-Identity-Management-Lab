@@ -1,6 +1,15 @@
-Microsoft Entra ID: Identity Management & Security Lab
+# Microsoft Entra ID: Identity Management & Security Lab
 
-This project demonstrates how to design and manage cloud-based identity and access controls using Microsoft Entra ID. The lab simulates a real-world enterprise workflow, covering user provisioning, MFA/SSPR enrollment, RBAC, group-based access, and identity verification through sign‑in logs.
+This project demonstrates how to design and manage cloud-based identity and access controls using Microsoft Entra ID...
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Lab Overview](#lab-overview)
+3. [Identity Management Walkthrough](#identity-management-walkthrough)
+4. [Security Hardening](#phase-2-security-hardening-mfa--sspr)
+5. [RBAC & Group Management](#phase-3-rbac--scalable-group-infrastructure)
+6. [Verification & Auditing](#phase-4-verification--sign-in-auditing)
+7. [Technical Skills Used](#technical-skills-used)
 
 ## Lab Overview
 This lab focuses on:
